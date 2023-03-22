@@ -6,6 +6,83 @@
   <title>Dating quiz</title>
 </head>
 <body>
+  <h1>Weclome to our quiz determining quiz</h1>
+  <h3>After answering these few questions we will determine which type of pet is right for you!</h3>
   
+<form>
+  <p>Question 1: Do you like fur?</p>
+
+    <input type="radio" id="yesFQ" name="furQuestion" value="1" checked>
+    <label for="yesFQ">Yes</label>
+    
+    <input type="radio" id="noFQ" name="furQuestion" value="0">
+    <label for="noFQ">No</label><br>
+  
+
+  <p>Question 2: Do you have a lot of space?</p>
+
+    <input type="radio" id="yesSQ" name="spaceQuestion" value="1" checked>
+    <label for="yesSQ">Yes</label>
+    
+    <input type="radio" id="noSQ" name="spaceQuestion" value="0">
+    <label for="noSQ">No</label><br>
+    
+
+
+  <p>Question 3: Do you have plenty of time?</p>
+ 
+    <input type="radio" id="yesTQ" name="timeQuestion" value="1" checked>
+    <label for="yesTQ">Yes</label>
+    
+    <input type="radio" id="noTQ" name="timeQuestion" value="0">
+    <label for="noTQ">No</label><br>
+ 
+
+      <br>
+      <button type="submit">Calculate My Pet</button>
+  </form>
+ 
+
+    <div id="dog" class="hidden">
+      <p>Congratulations: you should get a pet Dog!</p>
+    </div>
+    <div id="cat" class="hidden">
+      <p>Congratulations: you should get a pet Cat!</p>
+    </div>
+    <div id="bunny" class="hidden">
+      <p>Congratulations: you should get a pet Bunny!</p>
+    </div>
+    <div id="rock" class="hidden">
+      <p>Congratulations: you should get a pet Rock!</p>
+    </div>
+    <div id="fish" class="hidden">
+      <p>Congratulations: you should get a pet Fish!</p>
+    </div>
+    <div id="lizard" class="hidden">
+      <p>Congratulations: you should get a pet Lizard!</p>
+    </div>
+    <div id="errorMsg" class="hidden">
+      <p>Error you need to answer each question!</p>
+    </div>
+    
+
+  </div>
+    
+    <!-- Questions
+
+         <input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html">HTML</label><br>
+    <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="css">CSS</label><br>
+
+    Do you like fur? (button)
+    Are you willing to spend time cleaning your pet?
+    Do you have a lot of space?
+
+    animal choices:
+    cat, dog, fish, bird, rock, lizard, horse
+
+    -->
+  <p></p>
 </body>
 </html>
